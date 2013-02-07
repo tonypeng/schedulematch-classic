@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, Tahoma, Verdana, sans-serif;
+    font-size: 12pt;
+    background: #C7C7C7;
+    height: 98%;
+}
+
+.button {
+    border: 1px solid #000;
+    background-color: lightgrey;
+}
+
+h1 {
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+a {
+    color: #1874CD;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.blacklink {
+    color: black;
+}
+
+div#page {
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: white;
+}
+
+div#footer {
+    width: 100%;
+    text-align: center;
+    font-size: 8pt;
+}
+
+#banner {
+    font-size: 24pt;
+}
