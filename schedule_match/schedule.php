@@ -13,7 +13,7 @@ if(isset($_GET['id']))
 {
     require_once('config.php');
     
-    $id = $_GET['id'];
+    $id = mysql_real_escape_string($_GET['id']);
     
     $sub_row = mysql_fetch_array(mysql_query("SELECT * FROM `submissions` WHERE id=$id"));
     $query = mysql_query("SELECT * FROM `classes` WHERE submission_id=$id ORDER BY period ASC");
